@@ -40,10 +40,18 @@ Le gagnant est le dernier joueur en lice.
 
 Un exemple de jeu supportant le réseau
 
-* LocalWarGame la version du jeu supportant le jeu en local
-* WarGameEngine le moteur du jeu
-* WarGameNetorkPlayer le joueur distant en cas de partie réseau
-* WarGameNetworkEngine la version du jeu supportant le réseau
+*BattleshipGrid
+*Cell
+*CellState
+*RadarGrid
+*SpecialEffects
+*SpecialEffectType
+*GameController
+*GameLauncher
+*GameState
+*ActionType
+*Bot
+*PlayerAction
 
 
 
