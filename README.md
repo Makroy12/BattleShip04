@@ -1,5 +1,8 @@
-Règles du Jeu
-Mise en Place
+##Règles du Jeu
+
+##Mise en Place
+
+
 Plateau de Jeu : Chaque joueur (bot) dispose d'un plateau 10x10 pour placer ses navires et deviner les positions ennemies.
 Navires : La flotte de chaque joueur comprend :
 1 porte-avions (5 cases)
@@ -8,7 +11,10 @@ Navires : La flotte de chaque joueur comprend :
 1 torpilleur (2 cases)
 Tour de Jeu : Les bots jouent à tour de rôle, bombardant une case à la fois. Les réponses aux tirs (touché, manqué, coulé) sont communiquées après chaque tir.
 Fin de la Partie : Le jeu se termine lorsque tous les navires de l'un des bots sont coulés.
-Règles Supplémentaires
+
+##Règles Supplémentaires
+
+
 Mines : Des mines sont placées secrètement. Si un bot tire sur une mine, il perd son prochain tour.
 Radar : Une fois par partie, un bot peut scanner une zone 3x3 pour détecter la présence de navires sans connaître leurs positions exactes.
 Frappe nucléaire : Une fois par partie, un bot peut effectuer un tir sur une zone 3x3.
