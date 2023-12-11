@@ -1,10 +1,21 @@
-# Règles
-
-Le jeu se joue à au moins deux joueurs et comporte un maitre du jeu non joueur.
-
-## Mise en place
-
-Chaque joueur reçoit un nombre déterminé de cartes tirées aléatoirement, qu'il garde face cachée.
+Règles du Jeu
+Mise en Place
+Plateau de Jeu : Chaque joueur (bot) dispose d'un plateau 10x10 pour placer ses navires et deviner les positions ennemies.
+Navires : La flotte de chaque joueur comprend :
+1 porte-avions (5 cases)
+1 croiseur (4 cases)
+2 contre-torpilleurs (3 cases chacun)
+1 torpilleur (2 cases)
+Tour de Jeu : Les bots jouent à tour de rôle, bombardant une case à la fois. Les réponses aux tirs (touché, manqué, coulé) sont communiquées après chaque tir.
+Fin de la Partie : Le jeu se termine lorsque tous les navires de l'un des bots sont coulés.
+Règles Supplémentaires
+Mines : Des mines sont placées secrètement. Si un bot tire sur une mine, il perd son prochain tour.
+Radar : Une fois par partie, un bot peut scanner une zone 3x3 pour détecter la présence de navires sans connaître leurs positions exactes.
+Frappe nucléaire : Une fois par partie, un bot peut effectuer un tir sur une zone 3x3.
+Tir en Rafale : Une fois par partie, un bot peut effectuer un tir sur 3 cases consécutives.
+Frappe Aérienne : Chaque bot dispose d'une frappe aérienne pour bombarder une ligne ou colonne entière. Utilisable une seule fois.
+Système de Défense : Deux navires par flotte sont équipés d'un système de défense, les protégeant du premier tir.
+Sous-marin de Reconnaissance : Permet de détecter la présence de navires ennemis sur une ligne ou une colonne donnée.
 
 ## Déroulé de la partie
 
