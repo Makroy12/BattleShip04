@@ -1,6 +1,6 @@
-##Règles du Jeu
+## Règles du Jeu
 
-##Mise en Place
+## Mise en Place
 
 
 Plateau de Jeu : Chaque joueur (bot) dispose d'un plateau 10x10 pour placer ses navires et deviner les positions ennemies.
@@ -12,7 +12,7 @@ Navires : La flotte de chaque joueur comprend :
 Tour de Jeu : Les bots jouent à tour de rôle, bombardant une case à la fois. Les réponses aux tirs (touché, manqué, coulé) sont communiquées après chaque tir.
 Fin de la Partie : Le jeu se termine lorsque tous les navires de l'un des bots sont coulés.
 
-##Règles Supplémentaires
+## Règles Supplémentaires
 
 
 Mines : Des mines sont placées secrètement. Si un bot tire sur une mine, il perd son prochain tour.
